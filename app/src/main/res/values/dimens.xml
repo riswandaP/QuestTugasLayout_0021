@@ -10,4 +10,10 @@
 
     <dimen name="ukuran_logo">64dp</dimen>
     <dimen name="radius_card">16dp</dimen>
+
+    <dimen name="font_judul">32dp</dimen>
+    <dimen name="font_univ">16dp</dimen>
+    <dimen name="font_nama">22dp</dimen>
+    <dimen name="font_detail">14dp</dimen>
+    <dimen name="font_copy">12dp</dimen>
 </resources>
