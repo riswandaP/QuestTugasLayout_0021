@@ -63,6 +63,15 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             warnaNama = R.color.teks_putih,
             warnaAlamat = R.color.teks_putih
         )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_sedang)))
+        KartuProfil(
+            nama = R.string.nama_4,
+            telepon = R.string.telp_4,
+            alamat = R.string.alamat_4,
+            warnaCard = R.color.card_hijau,
+            warnaNama = R.color.teks_putih,
+            warnaAlamat = R.color.teks_putih
+        )
         Spacer(modifier = Modifier.weight(1f))
 
         Text(
