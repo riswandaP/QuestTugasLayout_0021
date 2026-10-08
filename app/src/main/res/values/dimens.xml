@@ -7,4 +7,7 @@
     <dimen name="jarak_kecil">4dp</dimen>
     <dimen name="jarak_sedang">12dp</dimen>
     <dimen name="jarak_judul">24dp</dimen>
+
+    <dimen name="ukuran_logo">64dp</dimen>
+    <dimen name="radius_card">16dp</dimen>
 </resources>
