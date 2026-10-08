@@ -41,6 +41,11 @@ fun KartuProfil(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_sedang))
         ) {
+            Image(
+                painter = painterResource(logo),
+                contentDescription = null,
+                modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
+            )
             // isi menyusul
         }
     }
