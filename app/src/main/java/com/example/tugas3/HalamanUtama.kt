@@ -29,5 +29,10 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontSize = dimensionResource(R.dimen.font_judul).value.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = dimensionResource(R.dimen.font_univ).value.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
