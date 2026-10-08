@@ -54,7 +54,15 @@ fun KartuProfil(
                     fontWeight = fontWeightNama,
                     color = colorResource(warnaNama)
                 )
-                // detail menyusul
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        fontSize = dimensionResource(R.dimen.font_detail).value.sp,
+                        color = colorResource(warnaTelepon),
+                        modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
+                    )
+                }
+                // alamat menyusul
             }
             // logo kanan menyusul
         }
