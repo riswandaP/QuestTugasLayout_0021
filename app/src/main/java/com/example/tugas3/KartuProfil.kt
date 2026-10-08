@@ -1,2 +1,47 @@
 package com.example.tugas3
 
+import androidx.annotation.ColorRes
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.*
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+
+@Composable
+fun KartuProfil(
+    @StringRes nama: Int,
+    @StringRes alamat: Int,
+    @ColorRes warnaCard: Int,
+    @ColorRes warnaNama: Int,
+    @ColorRes warnaAlamat: Int,
+    modifier: Modifier = Modifier,
+    @StringRes telepon: Int? = null,
+    @ColorRes warnaTelepon: Int = R.color.teks_cyan,
+    @DrawableRes logo: Int = R.drawable.logo_umy,
+    fontNama: FontFamily = FontFamily.Default,
+    fontWeightNama: FontWeight = FontWeight.Bold
+) {
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.radius_card)),
+        colors = CardDefaults.cardColors(containerColor = colorResource(warnaCard))
+    ) {
+        Row(
+            modifier = Modifier.padding(dimensionResource(R.dimen.padding_card)),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_sedang))
+        ) {
+            // isi menyusul
+        }
+    }
+}
