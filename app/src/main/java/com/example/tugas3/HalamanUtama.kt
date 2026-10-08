@@ -45,6 +45,15 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontNama = FontFamily.Cursive,
             fontWeightNama = FontWeight.Normal
         )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_sedang)))
+        KartuProfil(
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaCard = R.color.card_ungu,
+            warnaNama = R.color.teks_putih,
+            warnaAlamat = R.color.teks_kuning
+        )
         Spacer(modifier = Modifier.weight(1f))
 
         Text(
