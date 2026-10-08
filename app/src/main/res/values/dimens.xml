@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_atas">64dp</dimen>
+    <dimen name="padding_layar">16dp</dimen>
+    <dimen name="padding_card">12dp</dimen>
+    <dimen name="padding_bawah">32dp</dimen>
+    <dimen name="jarak_kecil">4dp</dimen>
+    <dimen name="jarak_sedang">12dp</dimen>
+    <dimen name="jarak_judul">24dp</dimen>
+</resources>
