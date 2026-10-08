@@ -62,7 +62,12 @@ fun KartuProfil(
                         modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
                     )
                 }
-                // alamat menyusul
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = dimensionResource(R.dimen.font_detail).value.sp,
+                    color = colorResource(warnaAlamat),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
+                )
             }
             // logo kanan menyusul
         }
