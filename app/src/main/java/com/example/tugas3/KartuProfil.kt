@@ -69,7 +69,11 @@ fun KartuProfil(
                     modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_kecil))
                 )
             }
-            // logo kanan menyusul
+            Image(
+                painter = painterResource(logo),
+                contentDescription = null,
+                modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
+            )
         }
     }
 }
