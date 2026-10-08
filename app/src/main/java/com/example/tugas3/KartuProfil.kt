@@ -46,7 +46,17 @@ fun KartuProfil(
                 contentDescription = null,
                 modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
             )
-            // isi menyusul
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = dimensionResource(R.dimen.font_nama).value.sp,
+                    fontFamily = fontNama,
+                    fontWeight = fontWeightNama,
+                    color = colorResource(warnaNama)
+                )
+                // detail menyusul
+            }
+            // logo kanan menyusul
         }
     }
 }
